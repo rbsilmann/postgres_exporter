@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Solicitar informações ao usuário
 read -p "Digite o nome do módulo (por exemplo, vr1): " MODULE_NAME
 read -p "Digite o nome de usuário: " USERNAME
 read -sp "Digite a senha: " PASSWORD
