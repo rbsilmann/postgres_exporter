@@ -6,7 +6,6 @@
 ### Passo 2: Criar o Arquivo `postgres_exporter.yml`
 
 1. **Crie e execute o script `exporter.sh`**:
-   Salve o seguinte script em um arquivo chamado `exporter.sh`:
 
    ```bash
    nano exporter.sh
