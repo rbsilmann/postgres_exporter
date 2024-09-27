@@ -8,6 +8,8 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres
       - PGDATA=/pgsql/15/data
+    ports:
+      - 5432:5432
     volumes:
       - pgsql_data:/pgsql/15/data
     networks:
