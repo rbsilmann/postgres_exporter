@@ -117,16 +117,15 @@
    nano compose.yml
    ```
 
-   Cole o conteúdo do `compose.yml`
+   Cole o conteúdo do `docker/compose.yml`
 
 3. **Criar o arquivo de configuração do Prometheus (`prometheus.yml`)**:
-   Crie o arquivo `prometheus.yml` no mesmo diretório que o `compose.yml`:
 
    ```bash
    nano prometheus.yml
    ```
 
-   Cole o conteúdo do `prometheus.yml`
+   Cole o conteúdo do `docker/prometheus.yml`
 
 4. **Subir todo o ambiente**:
    Após criar os arquivos necessários, você pode subir todo o ambiente com o seguinte comando:
